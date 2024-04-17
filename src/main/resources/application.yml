@@ -1,0 +1,13 @@
+server:
+  port: 2000
+
+spring:
+  application:
+    name: omnix-discovery
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:2000/eureka/
